@@ -24,9 +24,11 @@ config = {
         "Ling",
         "BGM",
         "NostalGeneral",
+        "Yitian",
+        "Wisdom",
         "Test",
-		"Assassins",
-		"Dragon"
+        "Assassins",
+        "Dragon"
     },
     color_wei = "#547998",
     color_shu = "#D0796C",
