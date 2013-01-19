@@ -149,7 +149,8 @@ SOURCES += \
     swig/sanguosha_wrap.cxx \
     src/core/RoomState.cpp \
     src/core/WrappedCard.cpp \
-    src/core/record-analysis.cpp
+    src/core/record-analysis.cpp \
+    src/package/dragon-package.cpp
 HEADERS += \
     src/client/aux-skills.h \
     src/client/client.h \
@@ -285,7 +286,8 @@ HEADERS += \
     src/jsoncpp/include/json/assertions.h \
     src/core/RoomState.h \
     src/core/WrappedCard.h \
-    src/core/record-analysis.h
+    src/core/record-analysis.h \
+    src/package/dragon-package.h
 
 FORMS += \
     src/dialog/cardoverview.ui \
@@ -345,10 +347,14 @@ OTHER_FILES += \
     sanguosha.qss \
     acknowledgement/main.qml \
     acknowledgement/list.png \
-    acknowledgement/back.png
+    acknowledgement/back.png \
+    qt_zh_CN.qm
 
 symbian: LIBS += -lfreetype
 else:unix|win32: LIBS += -L$$PWD/lib/ -lfreetype
 
 INCLUDEPATH += $$PWD/include/freetype
 DEPENDPATH += $$PWD/include/freetype
+
+
+

@@ -25,7 +25,8 @@ config = {
         "BGM",
         "NostalGeneral",
         "Test",
-		"Assassins"
+		"Assassins",
+		"Dragon"
     },
     color_wei = "#547998",
     color_shu = "#D0796C",
